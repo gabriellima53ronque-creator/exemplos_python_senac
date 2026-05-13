@@ -1,0 +1,10 @@
+opcao = int(input('escolha uma opção: \n1 - maçã\n2 - banana\n3 - laranja\nOpção: '))
+
+if opcao == 1:
+    print( 'Você escolheu Maçã.')
+elif opcao == 2:
+    print('Você escolheu banana')
+elif opcao == 3:
+    print('Você escolheu Laranja.')
+else:
+    print('Opção inválida.')

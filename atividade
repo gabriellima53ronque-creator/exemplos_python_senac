@@ -1,0 +1,12 @@
+import os
+
+continuar = "sim"
+os.system("cls")
+while continuar.lower() == "sim":
+    os.system("cls")
+    carro = input("Digite o nome de um carro: ")
+    print(f"Você digitou: {carro}")
+    os.system("cls")
+    continuar = input("Quer digitar outro carro? (sim/não): ")
+os.system("cls")
+print("Programa encerrado.")

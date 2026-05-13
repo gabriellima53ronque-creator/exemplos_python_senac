@@ -1,0 +1,4 @@
+aula de informática-Programação python
+aluno: Gabriel
+professor: Dieimes Nunes
+        

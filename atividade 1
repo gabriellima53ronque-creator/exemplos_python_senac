@@ -1,0 +1,16 @@
+import os
+
+continuar = "sim"
+
+nome = input("Qual é o seu nome? ")
+
+print("Olá,", nome)
+
+escolha = input("Você quer Taxi ou Moto Taxi? ")
+
+if escolha == "taxi":
+    print("Carregando Taxi...")
+elif escolha == "moto":
+    print("Carregando Moto...")
+else:
+    print("Opção inválida.")
