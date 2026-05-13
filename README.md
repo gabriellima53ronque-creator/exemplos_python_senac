@@ -1,46 +1,74 @@
-# Sistema de Escolha de Aula
+# 📚 Projetos do Curso de Inteligência Artificial
 
-Projeto desenvolvido em Python para praticar estruturas condicionais (`if`, `elif` e `else`).
+Este repositório contém exercícios e projetos desenvolvidos durante o curso de Inteligência Artificial no Senac de Ivaiporã/PR.
 
-## Funcionalidade
+## 📁 Arquivos do Projeto
 
-O programa pergunta ao usuário se a aula será:
+### 🐍 aulas.py
+Programa feito em Python utilizando estruturas condicionais (`if` e `else`).
+
+O usuário deve digitar:
 
 - `tarde`
-- `sabado`
+- `sábado`
 
-E exibe uma mensagem correspondente.
-
-## Código
+Se for digitado `tarde`, o programa mostra:
 
 ```python
-escolha = input("Digite 'tarde' ou 'sabado': ")
-
-if escolha == "tarde":
-    print("Tem aula à tarde fora do polo e fora do Senac")
-
-elif escolha == "sabado":
-    print("Tem aula sábado dentro do polo e dentro do Senac")
-
-else:
-    print("Opção inválida")
+Tem aula à tarde fora do polo e fora do Senac
 ```
 
-## Tecnologias utilizadas
+Se for digitado `sábado`, o programa mostra:
+
+```python
+Tem aula sábado dentro do polo e dentro do Senac
+```
+
+---
+
+### 🐍 variaveis.py
+Programa desenvolvido para praticar variáveis em Python.
+
+O sistema solicita:
+
+- Nome
+- Ano de nascimento
+- Ano atual
+- Peso
+- Altura
+
+Depois disso, o programa calcula automaticamente a idade do usuário utilizando a conta:
+
+```python
+idade = ano_atual - ano_nascimento
+```
+
+E exibe as informações digitadas.
+
+---
+
+### 🌐 index.html
+Página de login do projeto **OrganizAI** desenvolvida em HTML.
+
+O sistema possui:
+
+- Título da página
+- Área de login
+- Campo para email
+- Campo para senha
+- Link para recuperação de senha
+
+O objetivo desse arquivo é praticar a criação de estruturas básicas de páginas web utilizando HTML.
+
+## 💻 Tecnologias utilizadas
 
 - Python
+- HTML5
 
-## Conceitos praticados
+## 🎓 Curso
 
-- Variáveis
-- Entrada de dados
-- Estruturas condicionais
-- Comparação de texto
+Projeto desenvolvido durante o curso de Inteligência Artificial no Senac de Ivaiporã/PR.
 
-## Autor
+## 🚀 Autor
 
 Gabriel Rodrigues Lima Ronque
-
-## Data
-
-13/05/2026
