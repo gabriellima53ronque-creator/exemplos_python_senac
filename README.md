@@ -1,6 +1,6 @@
 # Sistema de Escolha de Aula
 
-Projeto desenvolvido em :contentReference[oaicite:0]{index=0} para praticar estruturas condicionais (`if`, `elif` e `else`).
+Projeto desenvolvido em Python para praticar estruturas condicionais (`if`, `elif` e `else`).
 
 ## Funcionalidade
 
